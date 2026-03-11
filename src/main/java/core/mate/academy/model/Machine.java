@@ -20,6 +20,5 @@ public abstract class Machine implements Workable {
         this.color = color;
     }
 
-    public void doWork() {
-    }
+    public abstract void doWork();
 }
