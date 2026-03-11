@@ -11,6 +11,22 @@ public class Excavator extends Machine {
     public Excavator() {
     }
 
+    public float getBucketCapacity() {
+        return bucketCapacity;
+    }
+
+    public void setBucketCapacity(float bucketCapacity) {
+        this.bucketCapacity = bucketCapacity;
+    }
+
+    public int getMaxDiggingDepth() {
+        return maxDiggingDepth;
+    }
+
+    public void setMaxDiggingDepth(int maxDiggingDepth) {
+        this.maxDiggingDepth = maxDiggingDepth;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Excavator started to work");
